@@ -1,9 +1,11 @@
 import React from 'react';
+import Info from './src/components/Info';
 import {
   AppRegistry,
   StyleSheet,
   Text,
   View,
+  VrButton,
 } from 'react-360';
 
 export default class Hello360 extends React.Component {
@@ -19,6 +21,8 @@ export default class Hello360 extends React.Component {
     );
   }
 };
+
+
 
 const styles = StyleSheet.create({
   panel: {
@@ -40,4 +44,7 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('Hello360', () => Hello360);
+
+AppRegistry.registerComponent('Info', () => Info);
+
+// AppRegistry.registerComponent('Hello360', () => Hello360);
